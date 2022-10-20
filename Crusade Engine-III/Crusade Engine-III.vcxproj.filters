@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\Util">
+      <UniqueIdentifier>{4475a001-44a2-46be-b581-6edc44251549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Prefab">
+      <UniqueIdentifier>{6890183c-5fbb-489d-a5eb-55d0a945aa66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Interface">
+      <UniqueIdentifier>{2f41f94c-ba11-428e-8ff1-a4008921437f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{62ff8ee9-47d5-4656-9bde-1cf7608d5286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Service">
+      <UniqueIdentifier>{f4101e3d-456b-4f6e-a4f7-7c934d125a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{ee687a38-8081-4d1b-be1b-d9afb74a1dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\UI">
+      <UniqueIdentifier>{0715e043-c69e-4a47-94b6-f863ae02f374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util\AI">
+      <UniqueIdentifier>{97d4c82f-7fb5-41e1-b66c-a6e303752702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util\AI\Brain">
+      <UniqueIdentifier>{67621114-e89c-4204-a232-f3ffa55d8d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util\AI\Steering">
+      <UniqueIdentifier>{92511726-6b46-49f7-a015-310ef85ce4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util\Graphics">
+      <UniqueIdentifier>{da37f1d2-6af9-4f1f-bc9c-8472a8a0e30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Service\Services">
+      <UniqueIdentifier>{1ffa7ff7-b9a3-4edf-bbed-96112f414510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Service\ServicesCrusade">
+      <UniqueIdentifier>{cee187af-ca3f-4dfa-8b0e-7ffde0e72375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Service\Alpha">
+      <UniqueIdentifier>{6dec4d1c-9bd2-448f-b8cb-c954e8e32d1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animator.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collider.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Component.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Delay.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FPS.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GeneralStructs.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FPSDebug.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Grid.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ParticleSystem.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextRenderer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureRenderer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Wall.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debug.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Resource.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CrusadeGame.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameLoop.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ProjectSettings.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneObject.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Prefab.cpp">
+      <Filter>Engine\Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UIElement.cpp">
+      <Filter>Engine\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Button.cpp">
+      <Filter>Engine\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Event.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Outline.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\OpenGlSoundEffect.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SoundEffect.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\BehaviorTree.cpp">
+      <Filter>Engine\Util\AI\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WanderInDirection.cpp">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WanderInRange.cpp">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CombinedSteering.cpp">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Seek.cpp">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Painter.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transition.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CrusadePainter.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\OpenGLTexture.cpp">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\OpenGlGrahpicsManager.cpp">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SDLRenderService.cpp">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SDLResourceService.cpp">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SDLAudioService.cpp">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SDLInputService.cpp">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ServiceCreator.cpp">
+      <Filter>Engine\Service\Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ServiceLocator.cpp">
+      <Filter>Engine\Service\Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AudioService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\EventService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RenderService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ResourceService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TimeService.cpp">
+      <Filter>Engine\Service\Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Animator.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collider.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Delay.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FPS.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GeneralStucts.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Singleton.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FPSDebug.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Grid.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ParticleSystem.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextRenderer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureRenderer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Wall.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transform.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debug.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Decoratation.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Resource.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputValue.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Particle.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CrusadeEngine.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CrusadeGame.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CrusadeInclude.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameLoop.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ProjectSettings.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneObject.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Prefab.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Random.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\PrefabManager.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UIElement.h">
+      <Filter>Engine\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Button.h">
+      <Filter>Engine\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UIImage.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Event.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UITextImage.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextDecoration.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Outline.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UIButton.h">
+      <Filter>Engine\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SoundEffect.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\OpenGlSoundEffect.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BehaviorTree.h">
+      <Filter>Engine\Util\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BlackBoard.h">
+      <Filter>Engine\Util\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WanderInDirection.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WanderInRange.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CombinedSteering.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DecisionMaking.h">
+      <Filter>Engine\Util\AI\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Coherency.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MoveInDirection.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MovementBehavior.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gravity.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Seek.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Separation.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Painter.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transition.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CrusadePainter.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Flee.h">
+      <Filter>Engine\Util\AI\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\OpenGLTexture.h">
+      <Filter>Engine\Util\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SDLGraphicsService.h">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SDLRenderService.h">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SDLResourceService.h">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SDLAudioService.h">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SDLInputService.h">
+      <Filter>Engine\Service\ServicesCrusade</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ServiceCreator.h">
+      <Filter>Engine\Service\Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ServiceLocator.h">
+      <Filter>Engine\Service\Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AudioService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CrusadeEvent.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GraphicsService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EventService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RenderService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ResourceService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TimeService.h">
+      <Filter>Engine\Service\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Service.h">
+      <Filter>Engine\Service\Alpha</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
